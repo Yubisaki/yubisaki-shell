@@ -1,6 +1,6 @@
 {
   "name": "yubisaki-shell",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "vuepress-theme-yubisaki shell",
   "main": "index.js",
   "repository": "https://github.com/Bloss/yubisaki-shell",
