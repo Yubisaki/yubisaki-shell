@@ -16,7 +16,6 @@
   ],
   "files": [
     "index.js",
-    "date_format.js",
     "yubisaki.js",
     "frontmatter.yml"
   ],
