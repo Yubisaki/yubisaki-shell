@@ -53,7 +53,7 @@ if(action === 'post') {
         process.exit(1)
     }
     if(typeof program.page === 'undefined') {
-        console.log(`${chalk.cyan('please specify the article path')}`)
+        console.log(`${chalk.cyan('please specify the article page')}`)
         process.exit(1)
     }
 
