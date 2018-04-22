@@ -16,7 +16,9 @@
   ],
   "files": [
     "index.js",
-    "yubisaki.js"
+    "date_format.js",
+    "yubisaki.js",
+    "frontmatter.yml"
   ],
   "bin": {
     "yubisaki": "./index.js"
