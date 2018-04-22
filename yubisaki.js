@@ -94,7 +94,7 @@ if(action === 'post') {
 
 function normalizeYaml() {
     const date = new Date()
-    const ymlPath = './frontmatter.yml'
+    const ymlPath = path.resolve(__dirname, 'frontmatter.yml')
 
     let matterObject = YAML.load(ymlPath)
 
