@@ -3,6 +3,7 @@
 const commander = require('commander')
 const path = require('path')
 const chalk = require('chalk')
+const figlet = require('figlet');
 const semver = require('semver')
 const { spawnSync } = require('child_process')
 const execSync = require('child_process').execSync
@@ -25,6 +26,12 @@ Date.prototype.Format = function (fmt) {
         if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
     return fmt;
 }
+
+console.log(
+    chalk.blue.bold(
+        figlet.textSync('yubisaki-shell', { horizontalLayout: 'full' })
+    )
+)
 
 const packageJson = require('./package.json')
 
