@@ -106,7 +106,7 @@ function normalizeYaml() {
     let matterObject = YAML.load(ymlPath)
 
     const result = Object.assign({}, matterObject, {
-        date: date.Format('yyyy-MM-dd hh:mm:ss')
+        date: date.Format('yyyy-MM-dd hh:mm:ss').replace(/\-/g, '/')
     })
 
     return YAML.stringify(result, 4, 2)
